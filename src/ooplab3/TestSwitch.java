@@ -22,7 +22,7 @@ public class TestSwitch {
         switch (c){
             case 'A': System.out.println("A ant"); break;
             case 'B': System.out.println("B bird"); break;
-            case 'C': System.out.println("C ant"); break;
+            case 'C': System.out.println("C cat"); break;
             default: System.out.println("D dog");
         }//switch
 
