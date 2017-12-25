@@ -12,7 +12,7 @@ import java.util.Scanner;
 //5.แสดงข้อมูลโดยการเรียงจากน้อยไปมาก
 //6.แสดงข้อมูลโดยการเรียงจากมากไปน้อย
 public class Exercise {
-    private static int MAX = 5;
+    private static int MAX = 20;
     public static void main(String[] args) {
         Integer[] num = new Integer[MAX];
         num = inputData(num);

@@ -4,26 +4,26 @@ import java.util.ArrayList;
 
 public class MyArrayList {
     public static void main(String[] args) {
-        //ArrayList
-        ArrayList list = new ArrayList();
+        //ArrayList สร้างค่าข้อมูล เก็บค่าข้อมูล
+        ArrayList mylist  = new ArrayList();
         String name = "Preaw";
-        list.add(name);
-        System.out.println(list);
-        list.add("BOY");
-        list.add("Girl");
-        System.out.println(list);
-        list.add(2, "ADAM");
-        System.out.println(list);
-        list.add(1);
-        System.out.println(list);
-        list.add(10.10);
-        System.out.println(list);
-        list.remove("BOY");
-        System.out.println(list);
-        list.remove(3);
-        System.out.println(list);
-        System.out.println(list.size());
-        System.out.println(list.get(2));
-        System.out.println(list.indexOf("ADAM"));
+        mylist.add(name);
+        System.out.println(mylist);
+        mylist.add("Gift");
+        mylist.add("Dee");
+        System.out.println(mylist);
+        mylist.add(2, "Hello");
+        System.out.println(mylist);
+        mylist.add(1,100);
+        System.out.println(mylist);
+        mylist.set(0,"Amon");
+        System.out.println(mylist);
+        mylist.remove("Hello");    //คำที่ต้องการลบออก
+        System.out.println(mylist);
+        mylist.remove(3);           //หรือใส่หมายเลขที่ต้องการลบ
+        System.out.println(mylist);
+        System.out.println(mylist.size());
+        System.out.println(mylist.get(2));
+        System.out.println(mylist.indexOf(100)); // หาตำแหน่งที่มีค่า 100
     }//main
 }//class
