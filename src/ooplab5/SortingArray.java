@@ -13,6 +13,7 @@ import java.util.Scanner;
 //5.find minimum value in array
 //6.sorting data in array (Descending order)
 //7.sorting data in array (Ascending order)
+
 public class SortingArray {
     private static int MAX =5;
     public static void main(String[] args) {
@@ -31,18 +32,32 @@ public class SortingArray {
         findAverage(total);
         findMax(num);
         findMin(num);
+        DescendingOrder(num);
+        AscendingOrder(num);
 
     }//findSummation
+
+    private static void AscendingOrder(Integer[] num) {
+        System.out.println("Ascendind Order");
+        Arrays.sort(num,Collections.reverseOrder());
+        ShowData(num);
+    }//AscendingOrder
+
+    private static void DescendingOrder(Integer[] num) {
+        Arrays.sort(num);
+        System.out.println("Descending Order");
+        ShowData(num);    // showData (Arrays.sort(num));
+    }//DescendingOrder
 
     private static void findMin(Integer[] num) {       //หาค่าที่น้อยที่สุด
         System.out.println("The Minimum value is: "+
                 Collections.min(Arrays.asList(num)));
-    }
+    }//findMinimum
 
     private static void findMax(Integer[] num) {   //หาค่ามากที่สุด
         System.out.println("The Maximum value is: "+
                 Collections.max(Arrays.asList(num)));
-    }//Maximum
+    }//findMaximum
 
     private static void findAverage(Integer num) {        //หาค่าเฉลี่ย
         System.out.println("The averge value is:"+num/MAX);
