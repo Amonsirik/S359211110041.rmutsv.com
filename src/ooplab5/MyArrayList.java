@@ -1,7 +1,5 @@
 package ooplab5;
-
 import java.util.ArrayList;
-
 public class MyArrayList {
     public static void main(String[] args) {
         //ArrayList สร้างค่าข้อมูล เก็บค่าข้อมูล
@@ -26,4 +24,4 @@ public class MyArrayList {
         System.out.println(mylist.get(2));
         System.out.println(mylist.indexOf(100)); // หาตำแหน่งที่มีค่า 100
     }//main
-}//class
+            }//class

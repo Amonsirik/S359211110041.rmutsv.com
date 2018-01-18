@@ -1,14 +1,10 @@
 package ooplab4;
-
 public class TestMethods {
-
     public static  void A(){
         System.out.println("Hello A");
-
     }// A
     public static  void B(int x,int y, String s){
         System.out.println(s);
-
     }//B
     public static  int C(int x, int y){
         return x+y;

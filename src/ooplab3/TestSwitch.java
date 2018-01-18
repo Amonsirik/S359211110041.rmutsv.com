@@ -1,7 +1,5 @@
 package ooplab3;
-
 import java.util.Scanner;
-
 public class TestSwitch {
     public static void main(String[] args) {
 
@@ -17,7 +15,6 @@ public class TestSwitch {
 //            default: System.out.println("Please enter number between 1-3, Thank you");
 //
 //        }//switch
-
         char c = 'E';
         switch (c){
             case 'A': System.out.println("A ant"); break;

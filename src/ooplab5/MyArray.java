@@ -20,9 +20,8 @@ public class MyArray {
         showData(num);
         int num2[] = new int[MAX];  //10 elements
         showData(num2);
-        
-        
-        
+
+
 
     }//main
 

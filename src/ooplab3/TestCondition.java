@@ -9,7 +9,6 @@ public class TestCondition {
             System.out.println("x more than y");
         else
             System.out.println("x more than y");
-
 //        if else if
         if (y>30){
             System.out.println("y less than 30");
@@ -22,10 +21,7 @@ public class TestCondition {
         else{
             System.out.println("y more than 20");
         }
-
         System.out.println("IS221");
         System.out.println("oop");
     }//main
-
-
 }//class

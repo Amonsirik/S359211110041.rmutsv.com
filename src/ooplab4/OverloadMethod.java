@@ -3,7 +3,6 @@ package ooplab4;
 public class OverloadMethod {
     // global variable
     private static int value = 100;
-
     public static void A(){
         System.out.println("Hello");
         int number = 20;
@@ -16,9 +15,7 @@ public class OverloadMethod {
     public static void A(int x,int y){
         System.out.println("Hello "+(x+y));
     }
-
     public static void main(String[] args) {
-
 //        OverloadMethod
         A();
         A(5);
@@ -27,7 +24,5 @@ public class OverloadMethod {
 
 //        local variable
         int number = 10;
-
-
     }//main
 }// class

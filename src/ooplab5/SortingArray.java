@@ -80,6 +80,5 @@ public class SortingArray {
         }
         return num;
 
-
 }//main
 }//class

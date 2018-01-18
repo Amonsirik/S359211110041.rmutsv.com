@@ -20,13 +20,5 @@ public class compareString {
             System.out.println("no. +");                  //ถ้า m มากกว่า n เป็น no+
         else System.out.println("no. -");                 //ถ้า m น้อยกว่า n เป็น no-
 
-
-
-
-
-
-
-
-
     }//main
 }//class

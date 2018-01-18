@@ -1,8 +1,5 @@
 package ooplab5;
-
 import java.util.Scanner;
-
-
 //1.declare array as Integer ทำการประกาศตัวแปรขึ้นมาก่อน
 //2.allow user to input data into array ให้ user inputข้อมูลใช้ในการแสดงค่าข้อมูลที่อยู่ใน อาร์เรย์
 //3.show data in array โชว์ข้อมูล
@@ -26,7 +23,6 @@ public class InputDataToArray {
         }
         System.out.println();
     }
-
 
     private static Integer[] inputData(Integer[] num) { //ตัวอย่างในการแสดง Output จำนวนเต็ม
         Scanner scanner =new Scanner(System.in);

@@ -1,5 +1,4 @@
 package ooplab5;
-
 import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
@@ -46,7 +45,6 @@ public class Exercise {
             total += val;  //total = total+val ;
         System.out.println(total);
         Aeverage(total);
-
     }
 
     private static void AscendingOrder(Integer[] num) {
@@ -54,7 +52,6 @@ public class Exercise {
         Arrays.sort(num, Collections.reverseOrder());
         showArray(num);
     }
-
     private static void DecendingOrder(Integer[] num) {
         System.out.println("Decending Order: ");
         Arrays.sort(num);

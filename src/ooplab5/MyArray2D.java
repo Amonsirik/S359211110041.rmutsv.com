@@ -28,8 +28,6 @@ public class MyArray2D {
         System.out.println();
     }
 
-
-
     private static int[][] inputData2D(int[][] num) throws IOException {
         BufferedReader reader = new BufferedReader(
                 new InputStreamReader(System.in));
