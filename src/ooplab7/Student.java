@@ -29,16 +29,28 @@ public class Student {
         this.id = id;
 
     }//setID
-    public String getId(){
-        return this.id;
-    }//gerID        เป็นการรีเทินค่า
-    public String getName(String name){
-        return this.name;
+
+    public String getName() {
+        return name;
     }
-    public String getMajor(String major){
-        return this.major;
+
+    public void setName(String name) {
+        this.name = name;
     }
-    public String getGroup(String group){
-        return this.group;
+
+    public String getMajor() {
+        return major;
+    }
+
+    public void setMajor(String major) {
+        this.major = major;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public void setGroup(String group) {
+        this.group = group;
     }
 }
