@@ -29,9 +29,14 @@ public class Student {
         this.id = id;
 
     }//setID
+    public String getId(){
+        return this.id;
+    }
+
+
 
     public String getName() {
-        return name;
+        return this.name;
     }
 
     public void setName(String name) {
@@ -39,7 +44,7 @@ public class Student {
     }
 
     public String getMajor() {
-        return major;
+        return this.major;
     }
 
     public void setMajor(String major) {
@@ -47,7 +52,7 @@ public class Student {
     }
 
     public String getGroup() {
-        return group;
+        return this.group;
     }
 
     public void setGroup(String group) {
