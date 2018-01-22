@@ -6,7 +6,7 @@ public class StudentApp {
     public static void main(String[] args) {
         // create object as Student
         Student s1 = new Student ();
-        s1.setId("111111111111");
+        s1.setId("111111111111");    //เป็นการเปลี่ยนแปลงค่า
         s1.setName("Boy Saiyai");
         s1.setMajor("Information System");
         s1.setGroup("IS221");
@@ -21,7 +21,12 @@ public class StudentApp {
 
         Student s3 = new Student();
         s3 = inputData (s3);
+
         showData(s3);
+
+        // test
+        System.out.println(Student.faculty);
+        System.out.println(s1.faculty);
 
     }//main
 
@@ -29,7 +34,7 @@ public class StudentApp {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please enter student info:");
         System.out.print("Enter student ID:");
-        s.setId(scanner.nextLine());
+        s.setId(scanner.nextLine());                    //อ่านค่าเข้ามาแล่้วทำการ set Id,name,..
         System.out.print("Enter student name:");
         s.setName(scanner.nextLine());
         System.out.println("Enter student major:");
@@ -47,8 +52,6 @@ public class StudentApp {
         System.out.println("Major :" + s.getMajor());
         System.out.println("Group :" + s.getGroup());
         System.out.println("-------------" );
-
-
 
 
     }//showData

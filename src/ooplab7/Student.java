@@ -8,7 +8,8 @@ package ooplab7;
 // 4. group
 
 public class Student {
-    private String id;                //private การเป็นส่วนตัว ใช้งานเฉพาะภายใน class นั้น
+    public static String faculty = "Management Technology";     //
+    private String id;                //private การเป็นส่วนตัว ใช้งานเฉพาะภายใน class นั้น ๆ class อื่นไม่สามารถมองเห็น
     private String name;
     private String major;
     private String group;
@@ -32,8 +33,6 @@ public class Student {
     public String getId(){
         return this.id;
     }
-
-
 
     public String getName() {
         return this.name;
