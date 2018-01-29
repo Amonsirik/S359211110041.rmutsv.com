@@ -20,7 +20,7 @@ public class mySuperCar {
 
         Scanner scanner = new Scanner(System.in);
         System.out.println("Please insert super car info: ");
-        for (int i =0;i<2;i++){
+        for (int i =0;i<3;i++){
             System.out.println("Super car: "+(i+1));
             System.out.print("Brand: ");
             String b = scanner.nextLine();
@@ -28,7 +28,11 @@ public class mySuperCar {
             String c = scanner.nextLine();
             System.out.print("Engine Size: ");
             String e = scanner.nextLine();
-            SuperCar car  = new SuperCar(b,c,e);
+            System.out.print("maxspeed: ");
+            String m = scanner.nextLine();
+            System.out.print("countyoforigin: ");
+            String r = scanner.nextLine();
+            SuperCar car  = new SuperCar(b,c,e,m,r);
             myCarList.add(car);
         }
         return myCarList;

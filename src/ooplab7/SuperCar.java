@@ -4,13 +4,33 @@ public class SuperCar {
     private String carBrand;
     private String carColor;
     private String engSize;
+    private String maxspeed;
+    private String countyoforigin;
     //constructor
     public SuperCar(){}
-    public SuperCar(String b,String c, String e){
+    public SuperCar(String b,String c, String e,String m,String r){
 
         this.carBrand = b;
         this.carColor = c;
-        this.engSize =e;
+        this.engSize = e;
+        this.maxspeed= m;
+        this.countyoforigin =r;
+    }
+
+    public String getMaxspeed() {
+        return maxspeed;
+    }
+
+    public void setMaxspeed(String maxspeed) {
+        this.maxspeed = maxspeed;
+    }
+
+    public String getCountyoforigin() {
+        return countyoforigin;
+    }
+
+    public void setCountyoforigin(String countyoforigin) {
+        this.countyoforigin = countyoforigin;
     }
 
     public String getCarColor() {
@@ -38,13 +58,13 @@ public class SuperCar {
         this.engSize = engSize;
     }
 
-
-
     public String getSuperCarInfo() {
         return "SuperCar{" +
                 "carBrand='" + carBrand + '\'' +
                 ", carColor='" + carColor + '\'' +
                 ", engSize='" + engSize + '\'' +
+                ", maxspeed='" + maxspeed + '\'' +
+                ", countyoforigin='" + countyoforigin + '\'' +
                 '}';
     }
 }
